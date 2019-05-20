@@ -30,8 +30,6 @@ Describe "$module PowerShell Module Tests" {
         'Get-OperatingSystemVersion',
         'Get-UpgradeVersionConfiguration',
         'Install-MSUPackage',
-        'Invoke-PowerShellUpgrade',
-        'New-PowerShellStartupScript',
         'New-ScheduledTaskAtStartup',
         'New-StartupBatchScript',
         'Set-UpgradeVersionConfiguration'
