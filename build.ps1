@@ -26,7 +26,7 @@ else {
         $splat = @{
             'Path'              = $manifestPath
             'ModuleVersion'     = $newVersion
-            'Copyright'         = "(c) 2018-$( (Get-Date).Year ) Swimlane. All rights reserved."
+            'Copyright'         = "(c) 2018-$( (Get-Date).Year ) MSAdministrator. All rights reserved."
         }
         Update-ModuleManifest @splat
         (Get-Content -Path $manifestPath) -replace 'PSGet_UpgradePowerShell', 'UpgradePowerShell' | Set-Content -Path $manifestPath
@@ -44,8 +44,8 @@ else {
             NuGetApiKey = $env:NuGetApiKey
             ErrorAction = 'Stop'
             Tags         = 'Upgrade', 'PowerShell'
-            LicenseUri   = 'https://github.com/Swimlane/UpgradePowerShell/blob/master/LICENSE'
-            ProjectUri   = 'https://github.com/Swimlane/UpgradePowerShell'
+            LicenseUri   = 'https://github.com/MSAdministrator/UpgradePowerShell/blob/master/LICENSE'
+            ProjectUri   = 'https://github.com/MSAdministrator/UpgradePowerShell'
             ReleaseNotes = 'Initial release to the PowerShell Gallery'
         }
 
