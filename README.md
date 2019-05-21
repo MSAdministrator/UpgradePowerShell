@@ -4,7 +4,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/274vxvijj3e5d2oh/branch/master?svg=true)](https://ci.appveyor.com/project/MSAdministrator/upgradepowershell/branch/master)
 
-A PowerShell Module to upgrade your system from PowerShell 2 to 5
+A PowerShell Module to upgrade from one version of PowerShell to another or upgrade from 2 to 5.
 
 ## Installation
 
