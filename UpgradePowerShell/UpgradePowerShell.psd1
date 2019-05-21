@@ -16,10 +16,10 @@
     Author            = 'Josh Rickard'
 
     # Company or vendor of this module
-    CompanyName       = 'Swimlane'
+    CompanyName       = 'Iterative Security'
 
     # Copyright statement for this module
-    Copyright         = '(c) 2019 Swimlane. All rights reserved.'
+    Copyright         = '(c) 2019 MSAdministrator. All rights reserved.'
 
     # Description of the functionality provided by this module
     Description       = 'A PowerShell Module to upgrade your system from PowerShell 2 to 5'
@@ -90,10 +90,10 @@
             Tags       = @('Upgrade', 'PowerShell')
 
             # A URL to the license for this module.
-            LicenseUri = 'https://github.com/swimlane/UpgradePowerShell/blob/master/LICENSE.md'
+            LicenseUri = 'https://github.com/MSAdministrator/UpgradePowerShell/blob/master/LICENSE.md'
 
             # A URL to the main website for this project.
-            ProjectUri = 'https://github.com/swimlane/UpgradePowerShell'
+            ProjectUri = 'https://github.com/MSAdministrator/UpgradePowerShell'
 
             # A URL to an icon representing this module.
             # IconUri = ''
