@@ -25,7 +25,7 @@
     Description       = 'A PowerShell Module to upgrade your system from PowerShell 2 to 5'
 
     # Minimum version of the Windows PowerShell engine required by this module
-    PowerShellVersion = '2'
+    PowerShellVersion = '2.0'
 
     # Name of the Windows PowerShell host required by this module
     # PowerShellHostName = ''
