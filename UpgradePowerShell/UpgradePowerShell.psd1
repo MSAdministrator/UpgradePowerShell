@@ -22,7 +22,7 @@
     Copyright         = '(c) 2019 MSAdministrator. All rights reserved.'
 
     # Description of the functionality provided by this module
-    Description       = 'A PowerShell Module to upgrade your system from PowerShell 2 to 5'
+    Description       = 'A PowerShell Module to upgrade from one version of PowerShell to another or upgrade from 2,3,4 to 5.'
 
     # Minimum version of the Windows PowerShell engine required by this module
     PowerShellVersion = '2.0'
