@@ -17,8 +17,12 @@ function ConvertFrom-Json20
         $item
 )
 
+   if($PSEdition -eq 'Core'){
+      return
+   }
+
     Write-Verbose -Message 'Converting JSON to object'
-    
+
     add-type -assembly system.web.extensions
     $ps_js=new-object system.web.script.serialization.javascriptSerializer
 
